@@ -4,11 +4,14 @@ import {Foo, Bar, StatefulCounter, StatelessCounter, TodoList} from './component
 import * as testSimple from '../test/simple'
 import * as testComponents from '../test/components'
 import * as advancedTestComponents from '../test/advanced'
+import * as testAbc from '../test/abc'
 
 const demo = cards('demo')
 const abc = cards('ABC')
 
 abc.card(<Foo message="yo" />, 'here is  a simple example')
+
+abc.test(testAbc, {title:'abc tests'})
 
 demo.card(
   `## markdown doc
