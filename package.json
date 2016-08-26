@@ -3,6 +3,7 @@
     "cards": "./node_modules/.bin/reactcards -e src/main.js"
   },
   "devDependencies": {
+    "react-addons-test-utils": "^15.3.1",
     "reactcards": "^0.3.0"
   },
   "dependencies": {
